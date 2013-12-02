@@ -12,6 +12,7 @@ ms:
 
 bib:
 	extract_bib ms.md > ms.bib
+	pandoc -S --no-wrap --bibliography=jshort.bib --bibliography=ms.bib --natbib ms.md -o ms.tex
 	bibtex  Anderson-etal-ecological-portfolios
 	xelatex Anderson-etal-ecological-portfolios
 	xelatex Anderson-etal-ecological-portfolios
