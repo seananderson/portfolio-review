@@ -1,0 +1,74 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper]{geometry}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{booktabs}
+%\usepackage{pdflscape}
+\usepackage{lscape}
+\usepackage{url}
+%\usepackage{cite}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{ragged2e}
+\urlstyle{rm}
+\usepackage{tabu} % for spacing between rows in longtable
+\setlength{\tabulinesep}{9pt}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+%\setsansfont{Calibri}
+%\setmonofont{Inconsolata}
+%\setmainfont{Minion Pro}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{-4pt plus 2pt minus 2pt}
+
+
+\usepackage[round]{natbib}
+\bibliographystyle{frontecolenv}
+\bibpunct{(}{)}{;}{a}{}{;}
+
+%\usepackage{titling}
+%\setlength{\droptitle}{-23em}
+
+\setlength\parskip{0.12in}
+\setlength\parindent{0in}
+\textheight 21.7cm
+
+\setcounter{secnumdepth}{-2}
+
+\title{Ecological portfolios: metaphors,\\metrics, and management}
+
+\author{Sean C. Anderson\thanks{Department of Biological Sciences, Simon Fraser
+    University, Burnaby BC, V5A 1S6, Canada; email: sean@seananderson.ca},
+  Andrew B. Cooper\thanks{School of Resource and Environmental Management,
+    Simon Fraser University, Burnaby, BC, V5A 1S6, Canada},
+  and Nicholas K. Dulvy\footnotemark[1]}
+\date{}
+
+\usepackage{lineno}
+\usepackage{xcolor}
+\renewcommand\linenumberfont{\normalfont\tiny\sffamily\color{gray}}
+
+\begin{document}
+
+\maketitle
+
+\linenumbers
+\modulolinenumbers[5]
+\begin{spacing}{1.2}
+
+\input{ms}
+\clearpage
+\bibliography{/Users/seananderson/Dropbox/tex/jshort,/Users/seananderson/Dropbox/tex/ref3}
+\clearpage
+\input{boxes}
+\clearpage
+\input{figs}
+\clearpage
+\input{data-table}
+\clearpage
+\input{theory-table}
+
+\end{spacing}
+\end{document}
