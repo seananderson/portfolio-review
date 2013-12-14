@@ -15,8 +15,8 @@
 \usepackage{tabu} % for spacing between rows in longtable
 \setlength{\tabulinesep}{9pt}
 
-\usepackage{fontspec}
-\defaultfontfeatures{Ligatures=TeX}
+%\usepackage{fontspec}
+%\defaultfontfeatures{Ligatures=TeX}
 %\setsansfont{Calibri}
 %\setmonofont{Inconsolata}
 %\setmainfont{Minion Pro}
@@ -36,6 +36,8 @@
 \setlength\parindent{0in}
 \textheight 21.7cm
 
+\hyphenation{meta-pop-ulation meta-pop-ulations sub-pop-ulations sub-pop-ulation e-con-o-mist en-vi-ron-men-tal pri-or-i-ti-za-tion}
+
 \setcounter{secnumdepth}{-2}
 
 \title{Ecological portfolios: metaphors,\\metrics, and management}
@@ -51,19 +53,21 @@
 \usepackage{xcolor}
 \renewcommand\linenumberfont{\normalfont\tiny\sffamily\color{gray}}
 
+
 \begin{document}
+%\raggedright
 
 \maketitle
 
 \linenumbers
 \modulolinenumbers[5]
-\begin{spacing}{1.1}
+\begin{spacing}{1.3}
 
 \input{ms}
 %\clearpage
 \bibliography{/Users/seananderson/Dropbox/tex/jshort,/Users/seananderson/Dropbox/tex/ref3}
-\clearpage
-\input{boxes}
+%\clearpage
+%\input{boxes}
 \clearpage
 \input{figs}
 \clearpage
