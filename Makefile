@@ -3,6 +3,7 @@ all:	ms
 ms:
 	pandoc -S --no-wrap --bibliography=jshort.bib --bibliography=ms.bib --natbib ms.md -o ms.tex
 	perl -p -i -e "s/Fig. /Fig.~/g" ms.tex
+	perl -p -i -e "s/Table /Table~/g" ms.tex
 	perl -p -i -e "s/Figs. /Figs.~/g" ms.tex
 	perl -p -i -e "s/e\.g\. /e\.g\.~/g" ms.tex
 	perl -p -i -e "s/i\.e\. /i\.e\.~/g" ms.tex
