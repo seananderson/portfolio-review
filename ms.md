@@ -101,13 +101,13 @@ is of a unit increase in biodiversity. The portfolio effect index is derived
 from the economic question: How much better off are you by investing your
 money in a diversified portfolio instead of investing all your money in a
 single asset [@markowitz1952]? In ecology, we consider the current ecological
-system the diversified portfolio and a theoretical homogenous (or monoculture)
+system the diversified portfolio and a theoretical homogeneous (or monoculture)
 system the single asset [@anderson2013]. For example, we could ask how much
 more stable is a metapopulation of salmon from different streams, rivers,
-or watersheds (the portfolio) compared to a theoretical homogenous stream
+or watersheds (the portfolio) compared to a theoretical homogeneous stream
 population (the single asset [@schindler2010; @carlson2011]. Hence, to
 accurately measure a portfolio effect we need to predict the variability
-of a theoretical homogenous system --- a system that lacks the element of
+of a theoretical homogeneous system --- a system that lacks the element of
 biodiversity we are interested in. Unfortunately, although the portfolio
 metaphor provides a new lens through which to view the diversity-stability
 relationship, on its own it remains unclear whether it provides new insights
@@ -134,13 +134,13 @@ ecological stability [@anderson2013].
 # Ecological portfolio management
 
 In addition to measuring the portfolio effect metric, we can use financial
-portfolio theory to direct ecological resource management.  Markowitz's seminal
+portfolio theory to direct ecological resource management. Markowitz's seminal
 contribution to financial portfolio theory was a focus on portfolio selection
 --- the idea that out of all possible portfolios there exists a subset that
 optimize a risk-return trade-off [@markowitz1952]. In ecology, the goals of
 ecological resource management often parallel those of financial managers,
-even though they are rarely expressed as such [@figge2004]. We see ecolotgical
-portfolio management happening in one of three ways:  (1) considering and
+even though they are rarely expressed as such [@figge2004]. We see ecological
+portfolio management happening in one of three ways: (1) considering and
 promoting existing management structures that promote diversified portfolios,
 (2) using Modern Portfolio Theory (MPT) to optimize ecological resource
 extraction, or (3) using MPT to optimize an ecological system itself.
@@ -148,7 +148,7 @@ extraction, or (3) using MPT to optimize an ecological system itself.
 First, we can consider existing management structures that create systems
 analogous to diversified portfolios. For example, fishers can engage in
 catch-pooling cooperatives where fishers share the profits from their catches
-according to pre-defined rules. @sethi2012 showed that this portfolio-like
+according to predefined rules. @sethi2012 showed that this portfolio-like
 scheme reduces risk for red king crab fishers in the Bering Sea by up to 40%.
 Other fisheries management tools such as community-based management, individual
 transferable quotas (ITQs), and licensing systems that allow for fishing a
@@ -166,10 +166,10 @@ and interest in the topic has expanded strongly recently [@edwards2004;
 @sanchirico2008; @ando2011; @halpern2011; @ando2012]. In ecology, portfolio
 optimization can also be applied spatially. For example, @halpern2011 used MPT
 to maximize fishing profits while minimizing spatial unevenness. MPT has also
-been used to opimize decisisions about whether to clearcut or retain standing
+been used to optimize decisions about whether to clearcut or retain standing
 trees [@hyytiainen2008; @hildebrandt2011]. As a third example, @moloney2011
 used MPT to optimize the choice of grazing animals on Australia's rangelands.
-With few exeptions, however, the application of MPT for harvesting decisiosn
+With few exceptions, however, the application of MPT for harvesting decisions
 has been limited to fishery and forestry examples.
 
 Third, we can use ecological portfolio management to choose how we allocate
@@ -183,21 +183,25 @@ topic in the Opportunities section of this paper.
 
 # Ecological theory to draw from
 
--   Portfolio theory is both a new lens though which to view many other ecological theories and the glue that can hold together many ecological theories.
+Portfolio theory represents both a new lens through which to view existing
+ecological theories and the glue that can hold together many ecological
+theories (Table \ref{tab:theory}). For example, the theory of island
+biogeography, metapopulation dynamics, and functional-group ecology can all
+generate portfolio-like ecological structure. Furthermore, a variety of
+mechanisms can generate ecological portfolio diversification: intraspecific
+trait variation [@bolnick2011], response diversity [@elmqvist2003;
+@loreau2013], personality variation [@wolf2012], biocomplexity
+[@hutchinson2008], diversity of competitive interactions [@mougi2012], and
+complementarity of function [@gonzalez2009]. Generally, there's a need to draw
+from across these disciplines, which often stay within their own niche, often
+use different terminology for the same concept (e.g. TODO). A strength of
+ecological portfolio theory is that it encourages us to consider all these
+elements in conjunction.
 
--   For example, the theory of island biogeography, metapopulation dynamics, and functional-group ecology can all generate portfolio-like ecological structure.
+TODO more examples here. Pull out elements from table.
 
--   Further, a variety of mechanisms could generate ecological portfolio diversification: intraspecific trait variation [@bolnick2011], response diversity [@elmqvist2003; @loreau2013], personality variation [@wolf2012], biocomplexity [@hutchinson2008], diversity of competitive interactions [@mougi2012], complementarity of function [@gonzalez2009].
+<!--For example, the Moran effect identifies that ecological assets that are closer together may provide less diversification for a portfolio since they will experience more similar environments.-->
 
--   see Table 1: Selected ecological theories and their relevance to ecological portfolios.
-
--   Pull out interesting points from the table and elaborate on.
-
--   Generally, there's a need to draw from across these disciplines; they often stay within their own niche; often, different names exist for the same concept and researchers may not discover parallel branches of research.
-
--   For example, the Moran effect identifies that ecological assets that are closer together may provide less diversification for a portfolio since they will experience more similar environments.
-
--   The theories presented here often address elements of ecological theory, and have done so for decades in detail, but may use different terminology. The strength of ecological portfolio theory is that it encourages us to consider all these elements in conjunction.
 
 # Challenges of applying the metaphor
 
@@ -216,31 +220,33 @@ refer to as partial- and whole-asset investment (Fig. \ref{fig:salmonport}).
 
 Partial-asset investments (Fig. \ref{fig:salmonport}) are akin to the
 traditional concept of a financial portfolio. An investor has a fixed quantity
-of money to invest and the investor uses that money to buy portions of a
-number of financial assets. The majority of financial portfolio theory has
-been developed around this investment model. An ecological example would be
-a fisher allocating harvesting resources into fishing a suite of species
-[@baldursson1997; @edwards2004; @kasperski2013]. In both the financial
-and ecological context, partial-asset investment allows the investor to
-alter his or her investment with relative ease. Whole-asset investments
-(Fig. \ref{fig:salmonport}) are less common in finance but abundant in
-ecology. In a whole-asset investment, the investor chooses to invest his or
-her resources in the entirety of an asset. For example, a financial investor
-might purchase a suite of small businesses. In ecology, a manager might manage
-a suite (catchment) of salmon populations [@schindler2010]. Alternatively,
-a species might rely on the ecosystem services provided by a suite of other
-species [REF]. In all these examples, if the investor wishes to redistribute
-investment among the assets, the investor must change the size of the assets
-themselves. Different investors invested in the same ecological assets may
-have disparate goals but the assets must be the same size in each investor's
-portfolio. EXAMPLE
+of money to invest and the investor uses that money to buy portions of a number
+of financial assets. The majority of financial portfolio theory has been
+developed around this investment model. An ecological example would be a fisher
+allocating harvesting resources into fishing a suite of species
+[@baldursson1997; @edwards2004; @kasperski2013]. In both the financial and
+ecological context, partial-asset investment allows the investor to alter his
+or her investment with relative ease.
 
-<!--Nick: ecosystem services above seems out of place-->
+Whole-asset investments (Fig. \ref{fig:salmonport}) are less common in finance
+but abundant in ecology. In a whole-asset investment, the investor chooses to
+invest his or her resources in the entirety of an asset. For example, a
+financial investor might purchase a suite of small businesses. In ecology, a
+manager might manage a suite (catchment) of salmon populations
+[@schindler2010]. Alternatively, a grizzly bear might consume from a portfolio
+of salmon species in a single river. In these whole-asset examples, if the
+investor wishes to redistribute investment, the investor must change the size
+of the assets themselves. Furthermore, different investors invested in the same
+ecological assets may have disparate goals but the assets must be the same size
+in each investor's portfolio. For example, fisheries management and
+conservation agencies might disagree on salmon return targets for a portfolio
+of salmon stocks, but ultimately must come to a consensus if they are invested
+in the same stocks (Fig. \ref{fig:salmonport}).
 
-Why distinguish partial- and whole-asset investments in ecological
-portfolios? The investment style affects: (1) How easy it is for an investor
-to increase investment in one asset and decrease investment in another. (2)
-The implications of the investor dropping investment in a given asset. (3) How
+Why distinguish partial- and whole-asset investments in ecological portfolios?
+The investment style affects: (1) How easy it is for an investor to increase
+investment in one asset and decrease investment in another. (2) The
+implications of the investor choosing to stop investing in an asset. (3) How
 changing investment in an asset affects the risk and return properties of the
 portfolio. (4) How conflicting interests of investors propagate through the
 ecological portfolio. All these issues point to the challenges of applying
@@ -249,8 +255,8 @@ investment, to ecological portfolios, which are frequently whole-asset
 investment portfolios.
 
 Who are the investors in ecological portfolios? The investor in an ecological
-portfolio could be, for example, a conservation agency, a management agency,
-a predatory population, another population that relies on ecosystem services
+portfolio could be, for example, a conservation agency, a management agency, a
+predatory population, another population that relies on ecosystem services
 provided by the portfolio, the species that comprise the portfolio itself, or
 the ecosystem of which the population exists. Specific investors will have
 unique goals. However, a common goal of many ecological portfolio investors
@@ -267,43 +273,30 @@ example, studies have considered population and genetic [@hughes1997;
 @luck2003], species [REF], functional [@stelzenmueller2009], trait
 [@bolnick2011], interaction types [@mougi2012] personalities [@wolf2012],
 life-histories [@greene2010], habitat [@schindler2008], and phylogenetic
-[@cadotte2012]. BRING IT BACK TO THE CHALLENGE HERE
-
--   With financial portfolios we can easily adjust our investment in assets by
-buying and selling and most portfolio theory is developed around this model.
--   However the way we invest in many ecological portfolios is different --- we
-invest in the entirety of each asset (say an entire stream of salmon) and it
-can be difficult to change our investment (say increase our investment in that
-stream of salmon through habitat restoration).
--   We will explore the literature on different kinds of assets, investors,
-investment styles, and types of diversification for ecological portfolios and
-their implications for applying portfolio theory.
--   For example, papers have considered investment as shark habitat
-[@yates2012], salmon abundance [@greene2010; @moore2010; @schindler2010;
-@carlson2011], and protected-area size [@ando2012].
+[@cadotte2012]. TODO BRING IT BACK TO THE CHALLENGE HERE
 
 ## A case study to illustrate the complexity
 
--   Focus on how there are multiple investors for the same ecological assets
+- Focus on how there are multiple investors for the same ecological assets
 with often-conflicting goals and different ways of managing their investment.
--   see Figure \ref{fig:salmonport}
+- see Figure \ref{fig:salmonport}
 
 ## Attributes of financial and ecological data
 
-Ecological and financial data differ in many fundamental ways that will affect
-how financial portfolio theory can be applied to ecological systems (Table
-\ref{tab:data}). For example, ecological data is often of short duration,
-recorded at low frequency (e.g. each year), and often contains missing
-values. Financial data, on the other hand, can be recorded every minute for
-decades and rarely contains missing values. Financial statistics that depend
-on such data may not be applicable to ecological data. As another example,
-ecological data often includes considerable measurement error that adds
-uncertainty to inferences about the "value" of ecological assets. Financial
-stock returns, however, by definition reflect the trading value of a stock,
-even if they do not reflect the underlying state of the company. Therefore, to
-accurately apply financial portfolio optimization to ecological portfolios, we
-may need to adopt methods that incorporate measurement error. Solutions may
-include Bayesian modelling, Monte Carlo simulation, and state space models.
+Ecological and financial data differ in many fundamental ways that will
+affect how financial portfolio theory can be applied to ecological systems
+(Table \ref{tab:data}). For example, ecological data is often of short
+duration, recorded at low frequency (e.g. each year), and often contains
+missing values. Financial data, on the other hand, can be recorded every
+minute for decades and rarely contains missing values. Financial statistics
+that depend on such data may not be applicable to ecological data. For
+example, TODO. As another example, ecological data often includes considerable
+measurement error that adds uncertainty to inferences about the "value" of
+ecological assets. Financial stock returns, however, by definition reflect the
+trading value of a stock. Therefore, to accurately apply financial portfolio
+optimization to ecological portfolios, we may need to adopt methods that
+incorporate measurement error. Solutions may include Bayesian modelling, Monte
+Carlo simulation, and state space models [@morgan1990].
 
 # Opportunities
 
@@ -318,7 +311,7 @@ optimization to benefit a purely conservation outcome [@crowe2008; @ando2012].
 We suggest taking the ecological portfolio management concept to its logical
 extension: consider optimizing portfolios of ecological assets with the
 goal of maximizing ecological productivity while minimizing the risk of low
-productivity Figure \ref{fig:mpt}.
+productivity.
 
 Any ecological scenario that produces time series analogous to typical
 financial stock time series may be a candidate for ecological conservation
@@ -328,7 +321,7 @@ same way that the first difference of returns are frequently used in financial
 portfolio analysis [REF]. The central issue with applying conservation-oriented
 ecological portfolio optimization will be deciding what precisely constitutes
 "investment" and how that investment re-allocation will occur. For example,
-if the abundance of subpopulations is considered investment how does one
+if the abundance of fish stocks is considered investment how does one
 increase or decrease that investment through time? Perhaps these adjustments
 could be made through changes in harvesting limits, stock supplementation, or
 habitat restoration. Realistic re-investment strategies may be taxa, region, or
@@ -340,80 +333,75 @@ Ecology has typically used metrics of symmetric variability such as the
 standard deviation or the coefficient of variation of a time series [e.g.
 @greene2010] and sometimes loosely referred to the result as risk; but, risk
 specifically refers both to the probability of something "undesired" happening
-and the magnitude of that event [@rachev2008]. For example, if an outcome is
-unknown but can only end positively, it presents no risk. Therefore, ecological
-risk metrics should allow for an asymmetry in this "desirableness" or loss
-function [@reckhow1994]. Furthermore, recent work in ecology has noted the
-frequency and influence of "ecological surprises" [@lindenmayer2010; @doak2012]
-and counterintuitive responses of populations to management [@pine-iii2009].
-Therefore, like financial risk metrics, ecological risk metrics should allow
-for fat-tailed probability distributions. The financial literature is rich
-with methods to rapidly assess the risk properties of time series --- methods
-that are particularly useful when used as part of portfolio optimization
-[@rachev2008].
+and the magnitude of that event [@rachev2008] (Fig. \ref{fig:risk}). For
+example, if an outcome is unknown but can only end positively, it presents
+little risk. Therefore, ecological risk metrics should allow for an asymmetry in
+this "desirableness" or loss function [@reckhow1994]. Furthermore, recent work
+in ecology has noted the frequency and influence of "ecological surprises"
+[@lindenmayer2010; @doak2012] and counterintuitive responses of populations to
+management [@pine-iii2009]. Therefore, like financial risk metrics, ecological
+risk metrics should allow for fat-tailed probability distributions. The
+financial literature is rich with methods to rapidly assess the risk properties
+of time series --- methods that are particularly useful when used as part of
+portfolio optimization [@rachev2008].
 
 Recent financial literature has focused on downside risk metrics [@ang2006],
 which emphasize the probability of an "undesired" event; we see great
-opportunity for their application in ecology. A variety of downside risk
-metrics measure different properties of risk. Therefore, how do different risk
-metrics reflect the goals of different "investors" in ecological portfolios?
-Conservation organizations, for example, may be concerned with avoiding
-catastrophic single years that could influence future productivity or have
-down-stream effects on predators or prey. They might, for example, use the
+opportunity for their application in ecology (Fig. \ref{fig:risk}). A variety
+of downside risk metrics measure different properties of risk. Therefore, how
+do different metrics reflect the goals of different "investors" in ecological
+portfolios? Conservation organizations, for example, may be concerned with
+avoiding catastrophic single years that could influence future productivity or
+have down-stream effects on predators or prey. They might, for example, use the
 probability of ruin, which measures the probability of an event worse than some
-threshold occurring [@vasicek1987] or the conditional value-at-risk (CVaR)
-[@rockafellar2002; @sethi2012a; @sethi2012b] to characterize the average
-magnitude of an extremely bad event. Resource users, on the other hand, might
-wish to minimize year-to-year fluctuations to ensure a stable income. Their
-interests could be reflected in the semideviation or semivariance, which
-characterizes a typical bad event [@markowitz1959; @sethi2012a; @sethi2012b].
-Moving forward, a fruitful area of research may be matching risk metrics to
-specific resource-management goals [@sethi2012a].
-
-<!--Risk refers both to the probability of something "undesired" happening and
-    the magnitude of that event [@rachev2008].-->
-<!--Metrics such as the coefficient of variation can not capture the
-    combination of these properties, but financial downside risk metrics can.-->
-<!--Exemplifying the need for proper risk metrics in ecology, recent papers
-    have focused on the frequency of ecological surprises [@lindenmayer2010; @doak2012].-->
-<!--The financial literature increasingly relies on downside risk metrics
-    [@ang2006] and the fisheries literature has begun applying these metrics to resource management [@sethi2012; @sethi2012a].-->
-<!--There is tremendous opportunity to match risk metrics to
-    resource-management goals.-->
+threshold occurring [@vasicek1987] or the conditional value-at-risk (CVaR) to
+characterize the average magnitude of an extremely bad event [@rockafellar2002;
+@sethi2012a; @sethi2012b]. Resource users, on the other hand, might wish to
+minimize year-to-year fluctuations to ensure a stable income. Their interests
+could be reflected in the semideviation or semivariance, which characterizes
+a typical bad event [@markowitz1959; @sethi2012a; @sethi2012b]. Moving
+forward, a fruitful area of research may be matching risk metrics to specific
+resource-management goals [@sethi2012a].
 
 # Outlook
 
-There are many future questions for ecological portfolio theory. For
-example: Across taxa, geography, and time, how pervasive is the stabilizing
-ecological portfolio effect? What drives the ecological portfolio effect and
-how can we promote it? How can the portfolio effect and portfolio optimization
-inform management and conservation and in what other contexts can it be
-applied? For example, how might they inform the debate about single large
-or several small reserves (SLOSS) debate? How can we integrate established
-principles of ecological and resource management with portfolio theory? What
-can financial portfolio theory tell us about managing for recovery? How can we
-move ecological portfolio theory beyond an academic exercise to applying its
-principles in applied management?
+Ecological portfolio theory is still a young discipline and there exist many
+important future questions to address: For example:
 
-<!--# Concluding remarks-->
+- Across taxa, geography, and time, how pervasive is the stabilizing ecological
+portfolio effect? Recent work suggests the effect may vary greatly across
+systems, but the general pervasiveness remains unclear along with the factors
+that promote it [@anderson2013].
 
-<!--[Notes] Important to think about ecological portfolios from all aspects
---- metaphors, indices, and management tools. Management, in particular, is an
-exciting area of research that we have just scraped the surface of.-->
+- How can the portfolio effect and portfolio optimization inform management
+and conservation and in what other contexts can it be applied? For example,
+how might the portfolio effect and optimization inform the debate about single
+large or several small reserves (SLOSS) debate?
 
-<!--Lots of potential assets and investors and different investment styles, but
-we need to careful consider how our metaphor affects quantitative aspects of
-our analysis.-->
+- How can we integrate established principles of ecological resource management
+with portfolio theory and what elements of portfolio theory can we integrate
+with traditional principles of management? For example, what can financial
+portfolio theory tell us about managing for recovery?
 
-<!--We need to be careful of a number of potential pitfalls including
-imprecision in the metaphor and fundamental differences in the types of data
-we're working with.-->
+- How can we move ecological portfolio theory beyond an academic exercise
+to applying its principles in applied management? Recent work has shown
+clear theoretical advantages to ecological conservation that considers MPT
+[@ando2012], but MPT has yet to be integrated into real-word conservation
+planning.
 
-<!--Ecological portfolio theory is useful in that it brings together many
-aspects of ecological theory, risk, uncertainty, and variance. However, we need
-to be careful not to re-invent the wheel and instead use ecological portfolio
-theory as the glue that holds these theories together in a way that's useful
-to management, and that conveys the salient concepts clearly to the public and
-resource managers.-->
+In conclusion, we emphasize the importance of thinking about ecological
+portfolios from all dimensions --- as metaphors, metrics, and management
+tools. Management, in particular, represents an exciting area of research
+that ecology has just begun exploring. Ecological portfolios can apply to
+a wide variety of ecological assets, ecological investors, and investment
+styles, but we need to carefully consider both imprecision in the metaphor
+[@anderson2013] and how fundamental differences between financial and
+ecological data may affect the outcomes of financial portfolio methods we apply
+in ecology. Ecological portfolio theories greatest strength may be that unites
+a wide variety of ecological theories along with concepts of risk, uncertainty,
+and variability. However, we need to be careful not to re-invent the wheel and
+instead use ecological portfolio theory as the glue that unites these theories
+in a way that's useful to research and management, and that conveys the salient
+concepts clearly to the public and resource managers.
 
 
