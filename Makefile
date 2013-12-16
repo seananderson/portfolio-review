@@ -10,6 +10,7 @@ ms:
 	#perl -p -i -e "s/\\\section/\\\section\*/g" ms.tex
 	#perl -p -i -e "s/\\\subsection/\\\subsection\*/g" ms.tex
 	pdflatex Anderson-etal-ecological-portfolios
+	cp Anderson-etal-ecological-portfolios.pdf ~/Dropbox/Public/
 
 bib:
 	extract_bib ms.md > ms.bib
