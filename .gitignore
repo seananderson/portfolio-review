@@ -8,3 +8,13 @@ ms.bib
 *.blg
 
 Session.vim
+
+.Rapp.history
+
+*.dvi
+
+*.fdb_latexmk
+
+*.fls
+
+*.rtf
