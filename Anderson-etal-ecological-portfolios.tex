@@ -21,18 +21,19 @@
 %\setmonofont{Inconsolata}
 %\setmainfont{Minion Pro}
 \usepackage{titlesec}
-\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{-4pt plus 2pt minus 2pt}
-\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{-6pt plus 2pt minus 2pt}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{-6pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{-8pt plus 2pt minus 2pt}
 
 
 \usepackage[round]{natbib}
-\bibliographystyle{frontecolenv}
+%\bibliographystyle{frontecolenv}
+\bibliographystyle{apalike}
 \bibpunct{(}{)}{;}{a}{}{;}
 
 %\usepackage{titling}
 %\setlength{\droptitle}{-23em}
 
-\setlength\parskip{0.14in}
+\setlength\parskip{0.16in}
 \setlength\parindent{0in}
 \textheight 21.7cm
 
@@ -40,14 +41,13 @@
 
 \setcounter{secnumdepth}{-2}
 
-\title{Ecological portfolios: metaphors,\\metrics, and management}
+\title{Ecological portfolios:\\metaphors, metrics, and management}
 
-\author{Sean C. Anderson\thanks{Department of Biological Sciences, Simon Fraser
-    University, Burnaby BC, V5A 1S6, Canada; email: sean@seananderson.ca},
-  Andrew B. Cooper\thanks{School of Resource and Environmental Management,
-    Simon Fraser University, Burnaby, BC, V5A 1S6, Canada},
-  and Nicholas K. Dulvy\footnotemark[1]}
+\author{Sean C. Anderson$^{1\ast}$,
+  Andrew B. Cooper,
+  and Nicholas K. Dulvy}
 \date{}
+
 
 \usepackage{lineno}
 \usepackage{xcolor}
@@ -58,13 +58,36 @@
 %\raggedright
 
 \maketitle
+$^1$Department of Biological Sciences, Simon Fraser University, Burnaby BC, V5A
+1S6, Canada
+
+$^2$School of Resource and Environmental Management, Simon Fraser University,
+Burnaby, BC, V5A 1S6, Canada
+
+$^{\ast}$Corresponding author: sean@seananderson.ca
+
+%Keywords:
+%risk
+%conservation
+%biodiversity
+%biocomplexity
+%Modern Portfolio Theory
+%ecological indices
+
+180 words in abstract\\
+3500 words in main text\\
+3 figures, 2 tables
+
+\clearpage
+
 
 \linenumbers
 \modulolinenumbers[3]
-\begin{spacing}{1.4}
+\doublespacing
+%\begin{spacing}{1.6}
 
 \input{ms}
-%\clearpage
+\clearpage
 \bibliography{/Users/seananderson/Dropbox/tex/jshort,/Users/seananderson/Dropbox/tex/ref3}
 %\clearpage
 %\input{boxes}
@@ -75,5 +98,5 @@
 \clearpage
 \input{data-table}
 
-\end{spacing}
+%\end{spacing}
 \end{document}
