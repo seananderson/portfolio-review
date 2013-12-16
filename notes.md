@@ -25,3 +25,24 @@ their implications for applying portfolio theory.
 <!--There is tremendous opportunity to match risk metrics to
   resource-management goals.-->
 
+Who are the investors in ecological portfolios? The investor in an ecological
+portfolio could be, for example, a conservation agency, a management agency, a
+predatory population, another population that relies on ecosystem services
+provided by the portfolio, the species that comprise the portfolio itself, or
+the ecosystem of which the population exists. Specific investors will have
+unique goals. However, a common goal of many ecological portfolio investors
+will be growth or persistence of a species, metapopulation, or community while
+minimizing the probability of population collapse or decline to the point of
+depensation, the loss of genetic diversity, or detriment to other properties of
+the ecosystem. WHAT IS THE CHALLENGE? [it affects investment style, goals, and
+the definition of asset value]
+
+There are a variety of types of diversification applicable to ecological
+portfolio theory. Species richness is an obvious type of diversification, but
+far from the only relevant source or ecological portfolio diversification. For
+example, studies have considered population and genetic [@hughes1997;
+@luck2003], species [REF], functional [@stelzenmueller2009], trait
+[@bolnick2011], interaction types [@mougi2012] personalities [@wolf2012],
+life-histories [@greene2010], habitat [@schindler2008], and phylogenetic
+[@cadotte2012]. TODO BRING IT BACK TO THE CHALLENGE HERE
+
