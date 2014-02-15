@@ -1,30 +1,19 @@
 all:	ms
 
 ms:
+	./extract_bib ms.md > ms.bib
 	pandoc -S --no-wrap --bibliography=jshort.bib --bibliography=ms.bib --natbib ms.md -o ms.tex
 	perl -p -i -e "s/Fig. /Fig.~/g" ms.tex
 	perl -p -i -e "s/Table /Table~/g" ms.tex
 	perl -p -i -e "s/Figs. /Figs.~/g" ms.tex
 	perl -p -i -e "s/e\.g\. /e\.g\.~/g" ms.tex
 	perl -p -i -e "s/i\.e\. /i\.e\.~/g" ms.tex
-	#perl -p -i -e "s/\\\section/\\\section\*/g" ms.tex
-	#perl -p -i -e "s/\\\subsection/\\\subsection\*/g" ms.tex
-	pdflatex Anderson-etal-ecological-portfolios
-	cp Anderson-etal-ecological-portfolios.pdf ~/Dropbox/Public/
+	latexmk anderson-etal-ecological-portfolios
+	cp anderson-etal-ecological-portfolios.pdf ~/Dropbox/Public/
 
-bib:
-	extract_bib ms.md > ms.bib
-	pandoc -S --no-wrap --bibliography=jshort.bib --bibliography=ms.bib --natbib ms.md -o ms.tex
-	perl -p -i -e "s/Fig. /Fig.~/g" ms.tex
-	perl -p -i -e "s/Figs. /Figs.~/g" ms.tex
-	perl -p -i -e "s/e\.g\. /e\.g\.~/g" ms.tex
-	perl -p -i -e "s/i\.e\. /i\.e\.~/g" ms.tex
-	pdflatex Anderson-etal-ecological-portfolios
-	bibtex  Anderson-etal-ecological-portfolios
-	pdflatex Anderson-etal-ecological-portfolios
-	pdflatex Anderson-etal-ecological-portfolios
+rtf:
+	latex2rtf anderson-etal-ecological-portfolios.tex
+	cp anderson-etal-ecological-portfolios.rtf ~/Dropbox/Public/
 
 clean:
-	rm *.aux
-	rm *.bbl
-	rm *.blg
+	latexmk -c anderson-etal-ecological-portfolios

@@ -1,5 +1,6 @@
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 \usepackage[letterpaper]{geometry}
+\geometry{verbose,letterpaper,tmargin=2.54cm,bmargin=2.54cm,lmargin=2.54cm,rmargin=2.54cm} 
 \usepackage{graphicx}
 \usepackage{setspace}
 \usepackage{booktabs}
@@ -15,11 +16,12 @@
 \usepackage{tabu} % for spacing between rows in longtable
 \setlength{\tabulinesep}{9pt}
 
-%\usepackage{fontspec}
-%\defaultfontfeatures{Ligatures=TeX}
-%\setsansfont{Calibri}
-%\setmonofont{Inconsolata}
-%\setmainfont{Minion Pro}
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+% \setsansfont{Calibri}
+% \setmonofont{Inconsolata}
+% \setmainfont{Linux Libertine}
+
 \usepackage{titlesec}
 \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{-6pt plus 2pt minus 2pt}
 \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{-8pt plus 2pt minus 2pt}
@@ -44,11 +46,17 @@
 
 \setcounter{secnumdepth}{-2}
 
-\title{Ecological portfolios:\\metaphors, metrics, and management}
+\title{When should ecologists play investment banker?\\
+  \bigskip
+  When ecology and economics collide: the application of portfolio theory to ecological systems\\
+  \bigskip
+  Ecological portfolios: When should ecologists play economist?\\
+  \bigskip
+  Ecological portfolios: metaphors, metrics, and management}
 
 \author{Sean C. Anderson$^{1\ast}$,
-  Andrew B. Cooper,
-  and Nicholas K. Dulvy}
+  Andrew B. Cooper$^2$,
+  and Nicholas K. Dulvy$^1$}
 \date{}
 
 
@@ -67,7 +75,7 @@ $^1$Department of Biological Sciences, Simon Fraser University, Burnaby BC, V5A
 $^2$School of Resource and Environmental Management, Simon Fraser University,
 Burnaby, BC, V5A 1S6, Canada
 
-$^{\ast}$Corresponding author: sean@seananderson.ca
+$^{\ast}$Corresponding author: sean\_anderson@sfu.ca
 
 %Keywords:
 %risk
@@ -77,20 +85,20 @@ $^{\ast}$Corresponding author: sean@seananderson.ca
 %Modern Portfolio Theory
 %ecological indices
 
-180 words in abstract\\
-3500 words in main text\\
-3 figures, 2 tables
+%180 words in abstract\\
+%3500 words in main text\\
+%3 figures, 2 tables
 
 \clearpage
 
 
 \linenumbers
-\modulolinenumbers[3]
-\doublespacing
-%\begin{spacing}{1.6}
+%\modulolinenumbers[3]
+%\doublespacing
+\begin{spacing}{1.5}
 
 \input{ms}
-\clearpage
+%\clearpage
 \bibliography{/Users/seananderson/Dropbox/tex/jshort,/Users/seananderson/Dropbox/tex/ref3}
 %\clearpage
 %\input{boxes}
@@ -101,5 +109,5 @@ $^{\ast}$Corresponding author: sean@seananderson.ca
 \clearpage
 \input{data-table}
 
-%\end{spacing}
+\end{spacing}
 \end{document}
