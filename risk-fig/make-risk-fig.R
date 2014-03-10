@@ -70,14 +70,14 @@ left_par <- function() {
   par(las = 1)
   par(tck = -0.017)
   par(mgp = c(2, 0.4, 0))
-  par(cex = 0.7, mar = c(0, 0, 0, 3), oma = c(5.75, 3.0, 2, 1))
+  par(cex = 0.7, mar = c(0, 0, 0, 3), oma = c(6, 3.0, 2, 1))
 }
 
 right_par <- function() {
   par(las = 1)
   par(tck = -0.017)
   par(mgp = c(2, 0.4, 0))
-  par(cex = 0.7, mar = c(0, 1.5, 0, 0), oma = c(5.75, 3.0, 2, 1))
+  par(cex = 0.7, mar = c(0, 1.5, .3, 0), oma = c(6, 3.0, 1.7, 1))
 }
 
 # Downside risk vs. symmetric variability simulation panel:
@@ -125,6 +125,58 @@ frr_rel <- data.frame(stock = frr[,1],
 fr_risk <- dplyr::arrange(frr_rel, cvar)
 row.names(fr_risk) <- fr_risk$stock
 fr_risk$stock <- NULL
+fr_risk$stock_id <- 1:nrow(fr_risk)
+fr_risk$stock <- row.names(fr_risk)
+
+
+
+## bring in map data
+library(maps)
+library(maptools)
+library(PBSmapping)
+library(rgdal)
+library(raster)
+
+# BC.lim <- readOGR(dsn="map-data", layer="BC_limit")
+# Fraser.WS <- readOGR(dsn="map-data", layer="Fraser_WS")
+# Tribs <- readOGR(dsn="map-data", layer="Tribs")
+# saveRDS(Tribs, file = "Tribs.rds")
+# saveRDS(BC.lim, file = "BC.lim.rds")
+# saveRDS(Fraser.WS, file = "Fraser.WS.rds")
+Tribs <- readRDS("Tribs.rds")
+Fraser.WS <- readRDS("Fraser.WS.rds")
+BC.lim <- readRDS("BC.lim.rds")
+
+
+sl <- read.csv("fraser-locations.csv", stringsAsFactors = FALSE, header = TRUE, strip.white = TRUE)
+
+convert_dec <- function(x){
+  x2 <- as.numeric(strsplit(x, " ")[[1]])
+  x2[1] + x2[2]/60 + x2[3]/3600
+}
+
+sl$lat <- sapply(sl$lat, convert_dec)
+sl$long <- sapply(sl$long, convert_dec)
+sl$long <- -1 * sl$long
+
+sl <- plyr::join(sl, fr_risk, by = "stock")
+
+#Y <- c(55.5, 55.2)
+#X <- c(-119.5, -119.5)
+#axis.pts <- cbind(Y, X)
+#axis.pts <- as.data.frame(axis.pts)
+coordinates(sl) <- c("long", "lat")
+proj4string(sl) <- "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs +towgs84=0,0,0"
+
+trib_col <- "grey30"
+
+Tribs.5 <- subset(Tribs, STRMRDR >4)
+Tribs.6 <- subset(Tribs, STRMRDR >5)
+Tribs.7 <- subset(Tribs, STRMRDR >6)
+Tribs.8 <- subset(Tribs, STRMRDR >7)
+Tribs.9 <- subset(Tribs, STRMRDR >8)
+
+
 
 screen(7);right_par()
 plot(1, 1, type = "n", xlim = c(c(1, nrow(fr_risk)) + c(-0.1, 0.1)), ylim
@@ -133,7 +185,7 @@ plot(1, 1, type = "n", xlim = c(c(1, nrow(fr_risk)) + c(-0.1, 0.1)), ylim
 axis(2, col = line.col, col.axis = axis.col)
 box(col = line.col, lwd = 1)
 
-lty <- rep(1, 99)
+lty <- c(1, 2, 1, 1)
 lwd <- rep(2.4, 99)
 
 risk_types <- c("cv", "semideviation", "var_","cvar")
@@ -151,7 +203,12 @@ for(ii in risk_types) {
     lwd = lwd[i], lty = lty[i])
 }
 par(las = 2)
-axis(1, at = 1:nrow(fr_risk), labels = rownames(fr_risk), col = line.col, mgp = c(2, 0.5, 0), cex.axis = 1.1, col.axis = axis.col)
+
+fr_risk_labels <- fr_risk$stock
+fr_risk_labels[10:length(fr_risk_labels)] <- paste0(fr_risk_labels[10:length(fr_risk_labels)], "  ")
+
+axis(1, at = 1:nrow(fr_risk), labels = fr_risk_labels, col = line.col, mgp = c(2, 1.3, 0), cex.axis = 1, col.axis = axis.col)
+axis(1, at = 1:nrow(fr_risk), labels = fr_risk$stock_id, mgp = c(2, 0.5, 0), cex.axis = 1, col.axis = "grey70", tick = FALSE)
 legend_order <- c(1, 2, 3, 4)
 legend(3, 1.03, risk_types_pretty[legend_order], col = colours_[legend_order], lwd = lwd[legend_order], lty = lty[legend_order], bty = "n",
   cex = 1.05, text.col = axis.col)
@@ -159,11 +216,30 @@ mtext("Relative risk or variability", side = 2, cex = 0.8, las = 0, line = 2.1, 
 mtext("(e)", side = 3, adj = 0.01, col = axis.col, cex = 0.8, las = 0, line = -1.2)
 par(xpd = NA)
 
-mtext("<Insert map here>", side = 3, line = 6, las = 0, cex = 0.8, col = axis.col)
+#mtext("<Insert map here>", side = 3, line = 6, las = 0, cex = 0.8, col = axis.col)
 
 screen(6);right_par()
+# Map:
+#par(mar = c(3,3,1,1), oma = c(0,0,0,0))
+plot(BC.lim, xlim=c(-124, -122), ylim=c(49.15,55.9), axes = FALSE, las = 1,
+  bty = "n", lwd=0.5, col = "grey90", border = FALSE)
+rect(-122, 51, -116, 57, col = "grey90", border = FALSE)
+#degAxis(1, at=c(-128, -124, -120, -116), cex.axis=0.5)
+#degAxis(2, at=c(50, 52, 54, 56), las=1, cex.axis=0.5)
+plot(Fraser.WS, col="grey80", add=TRUE, lwd = 0.5, border = FALSE)
+#plot(Tribs.5, axes=TRUE, add=TRUE, lwd=0.25, col = trib_col)
+plot(Tribs.6, axes=TRUE, add=TRUE, lwd=0.45, col = trib_col)
+plot(Tribs.7, axes=TRUE, add=TRUE, lwd=0.75, col = trib_col)
+plot(Tribs.8, axes=TRUE, add=TRUE, lwd=1, col = trib_col)
+plot(Tribs.9, axes=TRUE, add=TRUE, lwd=1.25, col = trib_col)
+plot(sl, cex = 1, pch=19, col = cvar_col, add=TRUE)
+text(sl, labels = sl$stock_id, pos = 4, cex = 0.9, col = "grey10")
+
 mtext("Fraser River sockeye salmon", side = 3, line = 0.5, outer = FALSE, cex = 0.8, col = axis.col)
-mtext("(d)", side = 3, adj = 0.075, col = axis.col, cex = 0.8, las = 0, line = -1.2)
+mtext("(d)", side = 3, adj = 0, col = axis.col, cex = 0.8, las = 0, line = -1.2)
+
+#axis(1)
+#axis(2)
 
 close.screen(all.screens = TRUE)
 
