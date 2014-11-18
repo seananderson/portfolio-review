@@ -30,17 +30,17 @@ theory.-->
 
 # Abstract
 
-aaPortfolio terminology has been increasingly used in conservation biology
-since the late 1990s; however, there lacks a unified consideration of its
-strengths and weaknesses across its many applications. Here, we review three
-contrasting applications of ecological portfolio theory. We show how ecological
-portfolios have been used as *metaphors* to communicate the benefit of
-biological diversity, as *metrics* to compare the benefits of diversification
-across systems and through time, and as *management tools* to make robust
-conservation decisions in the face of environmental uncertainty. We illustrate
-how ecological portfolios can unite a wide variety of existing ecological
-theories — theories that explain portfolio structure, causes of diversification
-and portfolio dynamics, and the risk-reduction consequences of biological
+Portfolio terminology has been increasingly used in conservation biology since
+the late 1990s; however, there lacks a unified consideration of its strengths
+and weaknesses across its many applications. Here, we review three contrasting
+applications of ecological portfolio theory. We show how ecological portfolios
+have been used as *metaphors* to communicate the benefit of biological
+diversity, as *metrics* to compare the benefits of diversification across
+systems and through time, and as *management tools* to make robust conservation
+decisions in the face of environmental uncertainty. We illustrate how
+ecological portfolios can unite a wide variety of existing ecological theories
+— theories that explain portfolio structure, causes of diversification and
+portfolio dynamics, and the risk-reduction consequences of biological
 diversity. However, there are many possible issues with applying portfolio
 theory to conservation biology. First, we illustrate how the way we invest in
 ecological portfolios (e.g. a metapopulation) can fundamentally differ from
@@ -270,65 +270,11 @@ or multiple levels of diversification. Whereas research on many of these
 ecological disciplines typically exists in its own niche, ecological portfolio
 theory encourages us to consider many elements in conjunction.
 
-# Challenges of applying the metaphor
+<!--The definition of an asset in ecological portfolios has been broad. Recent work has, for example, considered protected areas [@ando2012], salmon abundance [@greene2010; @moore2010; @schindler2010; @carlson2011; @yeakel2014], moth abundance [@anderson2013], reef fish abundance [@anderson2013; @mellin2014], and shark habitat [@yates2012] as assets in ecological portfolios. But we have only begun to see the types of ecological assets that can be considered. -->
 
-## Precision of the metaphor
+<!--An ecological example would be a fisher allocating harvesting resources into fishing a suite of species [@baldursson1997; @edwards2004; @kasperski2013]. Alternatively, a grizzly bear might consume fish from a number of streams (Fig. \ref{fig:salmonport}a). -->
 
-The definition of an asset in ecological portfolios has been broad. Recent work
-has, for example, considered protected areas [@ando2012], salmon abundance
-[@greene2010; @moore2010; @schindler2010; @carlson2011; @yeakel2014], moth
-abundance [@anderson2013], reef fish abundance [@anderson2013; @mellin2014],
-and shark habitat [@yates2012] as assets in ecological portfolios. But we have
-only begun to see the types of ecological assets that can be considered. We
-suggest the question shouldn't be whether some ecological unit matches a
-specific definition of an asset but rather if considering that unit in an
-asset-portfolio context is useful. Importantly, how we invest in an ecological
-asset affects its interpretation in a portfolio context. Below we outline two
-investment styles that we refer to as *partial-* and *whole-asset* investment
-(Fig. \ref{fig:salmonport}).
-
-Partial-asset investments are akin to the traditional concept of a financial
-portfolio (Fig. \ref{fig:salmonport}a). In finance, an investor has a fixed
-quantity of money to invest and the investor uses that money to buy portions of
-financial assets. The majority of financial portfolio theory has been developed
-around this investment model. An ecological example would be a fisher
-allocating harvesting resources into fishing a suite of species
-[@baldursson1997; @edwards2004; @kasperski2013]. Alternatively, a grizzly bear
-might consume fish from a number of streams (Fig. \ref{fig:salmonport}a). In
-both the financial and ecological context, partial-asset investment allows the
-investor to alter his or her investment with relative ease. Both the fisher and
-grizzly bear can usually choose to allocate their efforts across different
-species or different streams.
-
-Whole-asset investments are less common in finance but abundant in conservation
-biology (Fig. \ref{fig:salmonport}b). In whole-asset investment, the investor
-chooses to invest his or her resources in the entirety of an asset. For
-example, a financial investor might purchase a suite of small businesses. In
-conservation biology, a manager might manage a suite (catchment) of salmon
-populations [@schindler2010]. At the same time, a conservation agency might
-campaign for a certain allocation of conservation efforts toward that
-catchment. (Fig. \ref{fig:salmonport}b). In these whole-asset examples, if the
-investor wishes to redistribute investment, the investor must change the size
-of the assets themselves (e.g. by changing the habitat available for each
-salmon population). Furthermore, different investors invested in the same
-ecological assets may have disparate goals but the assets must be the same size
-in each investor's portfolio. For example, the fisheries management and
-conservation agencies might disagree on salmon return targets for a portfolio
-of salmon stocks, but ultimately must come to a consensus if their portfolios
-share stocks.
-
-Why distinguish partial- and whole-asset investments in ecological portfolios?
-The investment style affects: (1) How easy it is for an investor to increase
-investment in one asset and decrease investment in another. (2) The
-implications of the investor choosing to stop investing in an asset. (3) How
-changing investment in an asset affects the risk and return properties of the
-portfolio. (4) How conflicting interests of investors propagate through the
-ecological portfolio. All these issues point to the challenges of applying
-financial portfolio theory, which is mostly concerned with partial-asset
-investment, to ecological portfolios, which are frequently whole-asset
-investment portfolios.
-
-## Attributes of financial and ecological data
+# Attributes of financial and ecological data
 
 Ecological and financial data differ in many fundamental ways that will affect
 how financial portfolio theory can be applied to ecological systems (Table
