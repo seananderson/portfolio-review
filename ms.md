@@ -368,28 +368,28 @@ research may be matching risk metrics to specific conservation-management goals
 Ecological portfolio theory is still a young discipline and there exist many
 important future questions to address: For example:
 
-1.  Across taxa, geography, and time, how pervasive is the stabilizing
-    ecological portfolio effect and what factors affect its strength? Recent
-    work suggests the effect may vary greatly across systems, but the general
-    pervasiveness and the factors that promote it remain largely unclear
-    [@anderson2013; @mellin2014].
+1. Across taxa, geography, and time, how pervasive is the stabilizing
+   ecological portfolio effect and what factors affect its strength? Recent
+   work suggests the effect may vary greatly across systems, but the general
+   pervasiveness and the factors that promote it remain largely unclear
+   [@anderson2013; @mellin2014].
 
-2.  How can the portfolio effect and portfolio optimization inform management
-    and conservation and in what other contexts can it be applied? For
-    instance, how might portfolio optimization inform the debate about the
-    advantages of forming single large or several small reserves (SLOSS)? As
-    another example, what can portfolio optimization tell us about managing the
-    recovery of impacted ecological systems?
+2. How can the portfolio effect and portfolio optimization inform management
+   and conservation and in what other contexts can it be applied? For instance,
+   how might portfolio optimization inform the debate about the advantages of
+   forming single large or several small reserves (SLOSS)? As another example,
+   what can portfolio optimization tell us about managing the recovery of
+   impacted ecological systems?
 
-3.  How can we integrate established principles of conservation management with
-    portfolio theory? Furthermore, what elements of portfolio theory can we
-    integrate with traditional principles of ecological management?
+3. How can we integrate established principles of conservation management with
+   portfolio theory? Furthermore, what elements of portfolio theory can we
+   integrate with traditional principles of ecological management?
 
-4.  How can we move Ecological portfolio theory beyond an academic exercise to
-    using its principles in applied management? Recent work has shown clear
-    theoretical advantages to ecological conservation that considers MPT
-    [@crowe2008; @ando2012], but, to our knowledge, MPT has yet to be
-    integrated into real-word conservation planning.
+4. How can we move Ecological portfolio theory beyond an academic exercise to
+   using its principles in applied management? Recent work has shown clear
+   theoretical advantages to ecological conservation that considers MPT
+   [@crowe2008; @ando2012], but, to our knowledge, MPT has yet to be integrated
+   into real-word conservation planning.
 
 In conclusion, we emphasize the importance of thinking about ecological
 portfolios from all dimensions — as metaphors, metrics, and management tools.
