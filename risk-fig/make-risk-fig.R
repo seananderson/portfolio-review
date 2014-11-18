@@ -190,6 +190,11 @@ sl[sl$stock == "Seymour", "long"] <- -122.948
 sl[sl$stock == "Seymour", "long"] <- sl[sl$stock == "Seymour", "long"] - 0.3
 sl[sl$stock == "Seymour", "lat"] <- 49.372
 
+# birken = birkenhead
+
+sl[sl$stock == "Birken", "stock"] <- "Birkenhead"
+fr_risk[fr_risk$stock == "Birken", "stock"] <- "Birkenhead"
+
 coordinates(sl) <- c("long", "lat")
 proj4string(sl) <- "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs +towgs84=0,0,0"
 
