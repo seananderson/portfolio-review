@@ -31,7 +31,7 @@ and weaknesses across its many applications. Here, we review three contrasting
 applications of ecological portfolio theory. We show how ecological portfolios
 have been used as metaphors to communicate the benefit of biological diversity,
 as metrics to compare the benefits of diversification across systems and
-through time, and as management tools to make robust conservation decisions in
+through time, and as management tools to make optimal conservation decisions in
 the face of environmental uncertainty. We illustrate how ecological portfolios
 can unite a wide variety of existing ecological theories---theories that
 explain portfolio structure, causes of diversification and portfolio dynamics,
@@ -72,16 +72,17 @@ four reasons. First, ecological and financial systems are both structured
 hierarchically. Groups of populations form metapopulations and groups of
 species form communities; groups of financial assets form investment funds,
 which in turn form portfolios. Additionally, ecological and financial managers
-have similar goals. Conservation practitioners might wish to maximize
-productivity and minimize the probability of ecological collapse; financial
-portfolio managers maximize expected financial returns and minimize the
-probability of large economic losses [@may2008]. Another reason why portfolio
-theory is ideally suited for ecology is that substantial resources have gone
-into developing mathematical theory for optimizing financial investments. There
-is therefore a rich body of theory and experience to draw from. Finally, the
-portfolio metaphor is an engaging and accessible way for ecologists and
-conservationists to think about ecological variance and biological diversity
-and convey the importance of this (often abstract) literature.
+have similar goals. Ecological resource managers might wish to minimize the
+probability of population decline while maintaining an acceptable level of
+hunting of fishing; financial portfolio managers minimize the probability of
+large economic losses for an acceptable level of expected financial returns
+[@may2008]. Another reason why portfolio theory is ideally suited for ecology
+is that substantial resources have gone into developing mathematical theory for
+optimizing financial investments. There is therefore a rich body of theory and
+experience to draw from. Finally, the portfolio metaphor is an engaging and
+accessible way for ecologists and conservationists to think about ecological
+variance and biological diversity and convey the importance of this (often
+abstract) literature.
 
 A number of recent studies have used financial portfolios as a metaphor,
 metric, or management approach (Fig. \ref{fig:traits}) to estimate and
@@ -181,15 +182,15 @@ ecological stability [@anderson2013].
 In addition to measuring the portfolio-effect metric, we can use financial
 portfolio theory to inform decisions about conservation management. Markowitz's
 seminal contribution to financial portfolio theory was a focus on portfolio
-selection---the idea that out of all possible portfolios there exists a
-subset that optimize a risk-return trade-off [@markowitz1952]
-(Fig. \ref{fig:mpt}). In conservation biology, the goals of conservation
-practitioners often parallel those of financial managers, even though they are
-rarely expressed as such [@figge2004]. We see ecological portfolio management
-happening in one of three ways: choosing existing management structures that
-promote diversified portfolios, using Modern Portfolio Theory (MPT) to optimize
-ecological resource extraction, or using MPT to optimize an ecological system
-itself.
+selection---the idea that out of all possible portfolios there exists a subset
+that maximize returns for a level of risk (or minimize risk for a level
+of return) [@markowitz1952] (Fig. \ref{fig:mpt}). In conservation biology, the
+goals of conservation practitioners often parallel those of financial managers,
+even though they are rarely expressed as such [@figge2004]. We see ecological
+portfolio management happening in one of three ways: choosing existing
+management structures that promote diversified portfolios, using Modern
+Portfolio Theory (MPT) to optimize ecological resource extraction, or using MPT
+to optimize an ecological system itself.
 
 First, we can consider existing management structures that create systems
 analogous to diversified portfolios. For example, fishers can engage in
@@ -223,15 +224,15 @@ fishery and forestry examples.
 Finally, we can use ecological portfolio management to choose how we allocate
 conservation efforts to manage risk for an ecological system as a whole. For
 example, portfolio optimization can be used to spatially allocate conservation
-activity for wetlands to maximize ecosystem services while minimizing
-uncertainty due to climate change [@ando2011; @ando2012]. In forestry, MPT has
-been used to select the optimal weighting of seed sources for regenerating
-forests under a variety of climate change scenarios [@crowe2008]. In fisheries,
-MPT has been used to assess the risk-return trade-off for salmon metapopulation
-productivity given choices about what habitat to conserve under climate change
-and stream-flow reduction scenarios [@anderson2014]. We see this as a promising
-but largely unexplored use of ecological portfolio theory, and we revisit this
-topic in the *Opportunities* section of this paper.
+activity for wetlands to maximize ecosystem services at a given level of risk
+under the uncertainty of climate change [@ando2011; @ando2012]. In forestry,
+MPT has been used to select the optimal weighting of seed sources for
+regenerating forests under a variety of climate change scenarios [@crowe2008].
+In fisheries, MPT has been used to assess the risk-return trade-off for salmon
+metapopulation productivity given choices about what habitat to conserve under
+climate change and stream-flow reduction scenarios [@anderson2014]. We see this
+as a promising but largely unexplored use of ecological portfolio theory, and
+we revisit this topic in the *Opportunities* section of this paper.
 
 # Ecological theory to draw from
 
@@ -254,8 +255,8 @@ portfolio diversification. The unified neutral theory of biodiversity and
 biogeography asks what we would observe if species were functionally
 equivalent. We can think of this neutral community as an undiversified
 portfolio and compare it to observed communities to examine the benefit of
-functional diversity. This comparison is analogous to the portfolio-effect
-metric in recent literature [e.g. @doak1998; @schindler2010; @anderson2013].
+functional diversity. This comparison is analogous to the ecological
+portfolio-effect metric [e.g. @doak1998; @schindler2010; @anderson2015].
 
 Finally, a variety of mechanisms can generate ecological portfolio
 diversification (Table \ref{tab:theory}). For instance, intraspecific trait
