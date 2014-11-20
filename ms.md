@@ -1,36 +1,3 @@
-<!--- clarify the whole/partial asset thing — focus on examples - de-emphasize
-soundness of metaphor - add concrete suggestions of when given tools are
-appropriate - more description of final empirical figs - change title - remove
-’unifying lens’ terminology - go into more detail in warnings of mean-variance
-PE stuff - don’t coin ecological portfolio theory? - tweak didactic figure
-(indicate that bear can switch streams and fan out management for Chinook to
-encompass all) --> 
-
-<!--or delete it all-->
-
-<!--- Line 154: Unevenness in what? And presumably some optimal tradeoff was
-found rather than simultaneously maximizing/minimizing both quantities?-->
-
-<!--- Line 184: Can a 1998 citation really be “recent literature”? - Line
-224-225: I am not sure I understand this sentence – if whole asset-->
-
-<!--investment means that an investor owns(? or at least, invests in) the
-entirety of an asset, how can the asset have multiple investors – how can they
-both be invested in the entirety rather than each partially invested? I could
-see how each of the investors could have the entirety of their own resources in
-a single shared asset, but that is not the situation described in lines
-216-217.-->
-
-<!--- make recommendations more direct - define I found myself looking for a
-deeper insight or more direct recommendation for moving forward here. I was a
-bit confused by this whole section. Some challenges to a vaguely defined goal
-of “applying portfolio theory” are described, but I don’t see solutions or even
-recommendations of specific situations to avoid trying to apply portfolio
-theory.-->
-
-<!--The ins and outs of financial theory for ecology.-->
-<!--add a section on different metrics?-->
-
 \begin{center}
 \begin{LARGE}
 \noindent The promise of ecological portfolios for\\conservation biology
@@ -249,12 +216,13 @@ portfolios suggest portfolio theory as a management tool [@baldursson1997;
 interest in the topic has expanded strongly in recent years [e.g. @edwards2004;
 @sanchirico2008; @halpern2011; @moloney2011]. In conservation biology,
 portfolio optimization can be applied spatially. For example, @halpern2011 used
-MPT to maximize fishing profits while minimizing spatial unevenness of marine
-resources. MPT has also been used to optimize decisions about whether to
-clearcut or retain standing trees [@hyytiainen2008; @hildebrandt2011]. As a
-third example, @moloney2011 used MPT to optimize the choice of grazing animals
-on Australia's rangelands. With few exceptions, however, the application of MPT
-for harvesting decisions has been limited to fishery and forestry examples.
+MPT to illustrate the tradeoff between fishing profits and spatial unevenness
+of marine resource value. MPT has also been used to optimize decisions about
+whether to clearcut or retain standing trees [@hyytiainen2008;
+@hildebrandt2011]. As a third example, @moloney2011 used MPT to optimize the
+choice of grazing animals on Australia's rangelands. With few exceptions,
+however, the application of MPT for harvesting decisions has been limited to
+fishery and forestry examples.
 
 Finally, we can use ecological portfolio management to choose how we allocate
 conservation efforts to manage risk for an ecological system as a whole. For
