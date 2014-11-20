@@ -98,7 +98,6 @@ theory promises to move conservation biology beyond the familiar concepts of
 the quantity, variety, and distribution of species [@mace2005] and into a new
 dimension that emphasizes elements of variance, covariance, stability, and
 synchrony [@loreau2010a].
-<!--TODO add means and extremes here-->
 
 But in applying financial theory to conservation biology, where does the
 portfolio metaphor break down? What exactly are the assets, portfolios, and
